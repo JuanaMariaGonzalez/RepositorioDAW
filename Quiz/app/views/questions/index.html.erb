@@ -15,7 +15,7 @@
         <% question.choices.each do |choice| %>
         <li>
           <%= choice.text %>
-          <% if choice.correct %>(Correct)<% end %>
+          <% if choice.correct == 1 %>(Correct)<% end %>
         </li>
             <% end %>
       </ul>
